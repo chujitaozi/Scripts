@@ -12,6 +12,6 @@ rosdep update
 echo "source /opt/ros/indigo/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 sudo apt-get -y install python-rosinstall
-
+sudo apt-get -y install ros-indigo-ros-tutorials
 echo indigo已完成安装，请关闭此终端
 
