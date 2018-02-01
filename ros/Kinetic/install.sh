@@ -13,7 +13,7 @@ cd ../handsfree_hw
 pathofhf=`pwd`
 cd src/
 sed -i "s|/home/kedou/ros_workspace/mobile_robot_ws/src/handsfree/handsfree_hw|$pathofhf|" main.cpp
-cd /opt/ros_handsfree/
+cd ~/ros_handsfree/
 catkin_make
 echo "source ~/ros_handsfree/devel/setup.sh" >> ~/.bashrc
 echo HandsFree 相关程序已经安装完毕
