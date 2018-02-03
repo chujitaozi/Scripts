@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #安装HandsFree ROS包
-echo 请确保已经成功安装indigo
+echo 请确保已经成功安装Kinetic
 sleep 1
 mkdir -p ~/ros_handsfree/src
 git clone -b Kinetic https://github.com/HANDS-FREE/handsfree.git ~/ros_handsfree/src
